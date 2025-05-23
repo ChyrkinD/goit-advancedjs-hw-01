@@ -1,0 +1,51 @@
+.feedback-form {
+  width: 408px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 8px;
+  font-size: inherit;
+  color: inherit;
+}
+
+.feedback-form input:hover,
+.feedback-form textarea:hover {
+  border-color: #000000;
+}
+
+.feedback-form label {
+  display: block;
+  width: 100%;
+}
+
+.feedback-form label:first-child {
+  margin-bottom: 8px;
+}
+
+.feedback-form textarea {
+  height: 80px;
+}
+
+.feedback-form button {
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  font-size: inherit;
+  font-weight: 500;
+}
+
+.feedback-form button:hover {
+  background: #6c8cff;
+}
